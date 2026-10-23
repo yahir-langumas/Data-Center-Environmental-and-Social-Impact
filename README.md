@@ -7,6 +7,8 @@
 
 The county-level dataset from this project is part of the data behind [DataCenter.Clinic](https://datacenter.clinic), a public decision platform for data center development.
 
+![Average daily PM2.5 by U.S. county with data center locations](images/pm25_air_pollution_map.png)
+
 ## Overview
 
 The rapid growth of AI has driven a boom in U.S. data center construction, and these facilities place significant new demands on local electricity, water, and land. This project maps the locations of U.S. data center facilities against county-level environmental, socioeconomic, and public health data to ask: **are U.S. data centers disproportionately located in communities that already face elevated environmental hazards or economic/health vulnerability?**
@@ -27,10 +29,10 @@ Full citations are in the References section below.
 
 ## Repository Structure
 
-Most indicators have two notebooks:
+Most indicators have two notebooks, one in `maps/` and one in `bar_graphs/`:
 
-- **A county map notebook** (e.g. `pm25_air_pollution_map.ipynb`) — plots the indicator as a choropleth map with data center locations overlaid, binned into 5 severity tiers (Very Low → Very High) using the 2nd–98th percentile range.
-- **A bar graph notebook** (e.g. `pm25_air_pollution_bar_graph.ipynb`) — shows the percentage of data center facilities falling into each severity tier.
+- **A county map notebook** (e.g. `maps/pm25_air_pollution_map.ipynb`) — plots the indicator as a choropleth map with data center locations overlaid, binned into 5 severity tiers (Very Low → Very High) using the 2nd–98th percentile range.
+- **A bar graph notebook** (e.g. `bar_graphs/pm25_air_pollution_bar_graph.ipynb`) — shows the percentage of data center facilities falling into each severity tier.
 
 Master merge scripts:
 
