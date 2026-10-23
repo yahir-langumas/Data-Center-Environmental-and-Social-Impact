@@ -23,7 +23,7 @@ The dataset covers **4,413 U.S. data center facilities**, geocoded and joined to
 | Public Health | Asthma, COPD, coronary heart disease, stroke, depression, poor mental health, insufficient sleep, severe housing problems | CDC PLACES, County Health Rankings |
 | Noise | Existing transportation noise exposure | DOT National Transportation Noise Map |
 
-Full citations are in the project report / presentation References slide.
+Full citations are in the References section below.
 
 ## Repository Structure
 
@@ -34,7 +34,8 @@ Most indicators have two notebooks:
 
 Master merge scripts:
 
-- `all_data_csv.ipynb` / `all_data_sets_geopandas.py` — merge every indicator into a single county-level dataset (`geopandas_all-datasets.csv`, 3,144 counties × 31 columns).
+- `all_data_csv.ipynb` / `all_data_sets_geopandas.py` — merge every indicator into a single county-level dataset (`yahir_geopandas_all-datasets.csv`, 3,144 counties × 31 columns).
+- `all_data_sets_census_geopandas.py` — same merge without the County Health Rankings data.
 
 ## Methodology
 
