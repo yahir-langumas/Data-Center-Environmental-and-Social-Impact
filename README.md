@@ -3,6 +3,7 @@
 *A Discovery Partners Institute research project*
 
 **Authors:** Yahir Langumas (CS @ UIUC) · Akhilasri Arla (Econometrics & Psychology @ UIUC)
+
 **Supervised by:** Dr. Anuj Tiwari, Senior Research Associate, Discovery Partners Institute, Chicago, IL
 
 The county-level dataset from this project is part of the data behind [DataCenter.Clinic](https://datacenter.clinic), a public decision platform for data center development.
